@@ -27,3 +27,11 @@
 
     margin-top: 1rem;
 }
+
+@media screen and (min-width: 768px) {
+    .institucional__contato__completo a {
+        display: inline-block;
+        padding-top: 2rem;
+        text-decoration: none;
+    }
+}
