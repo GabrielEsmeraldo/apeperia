@@ -23,6 +23,7 @@
 
 .cabecalho__navegacao {
     text-align: center;
+    min-width: 336px;
 }
 
 .cabecalho__link {
