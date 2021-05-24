@@ -32,3 +32,32 @@
 
     margin-bottom: 1rem;
 }
+
+.sobre__imagem {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .sobre__imagem {
+        display: inline;
+        
+    }
+
+    .sobre {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sobre__conteudo {
+        padding-right: 3rem;
+    }
+
+    .border-botton {
+        border-bottom: 1px solid var(--cinza-escuro);
+        padding-bottom: 1.5rem;
+    }
+
+    .sobre__plataformas {
+        padding-top: 1.5rem;
+    }
+}

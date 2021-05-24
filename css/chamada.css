@@ -31,3 +31,16 @@
 .chamada__botao {
     width: 100%;
 }
+
+@media screen and (min-width: 1024px) {
+    .chamada__titulo {
+        font-size: 4rem;
+    } 
+
+    .chamada {
+        background-image: url(../img/bg-intro.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
